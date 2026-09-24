@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>document.documentElement.classList.add("js");</script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- TODO: your org name -->
+  <title>BUILD 2026 — YourHack</title>
+  <meta name="description" content="A 24-hour build hackathon. Bring an idea, a problem, or a skill. Applications are free and open to everyone." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ================= NAV ================= -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <!-- TODO: swap "YOURHACK" for your org name -->
+      <a class="nav__logo" href="#top">
+        <span class="nav__logo-mark" aria-hidden="true"></span>
+        <span class="nav__logo-text">AI MANTHAN 2.0 <em>&nbsp;2026</em></span>
+      </a>
+
+      <button class="nav__toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#speaker">Speaker</a></li>
+          <li><a href="#apply">Apply</a></li>
+          <li><a href="#build">The build</a></li>
+          <li><a href="#prizes">Prizes</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <a class="btn btn--solid nav__cta" href="#apply">Apply to Build</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <img class="unstop_banner" src="VENUE.png" alt="unstop_banner">
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="top">
+      <div class="container hero__inner">
+        <p class="hero__eyebrow"></p>
+
+        <h1 class="hero__title">
+          AI MANTHAN 2.0<br />
+          <span class="outline">2026</span>
+        </h1>
+
+        <!-- TODO: your real dates -->
+        <p class="hero__meta">
+          <strong>14 September – 10 October 2026</strong>
+          <span aria-hidden="true">·</span> Applications open
+          <span aria-hidden="true">·</span> Free to enter
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--solid" href="#apply">Apply to Build 2026</a>
+          <a class="btn btn--outline" href="#route">How it works</a>
+        </div>
+
+        <div class="hero__partners">
+          <span class="hero__partners-label">Partnered with</span>
+          <!-- TODO: real partner names / logos -->
+          <ul class="hero__partners-list">
+            <li>Partner One</li>
+            <li>Partner Two</li>
+            <li>Partner Three</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= MARQUEE ================= -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span class="marquee__group">
+          <span>BUILD 2026</span><span class="marquee__star">✳</span>
+          <span>MAKE IT WORK</span><span class="marquee__star">✳</span>
+          <span>SHIP SOMETHING REAL</span><span class="marquee__star">✳</span>
+        </span>
+        <span class="marquee__group">
+          <span>BUILD 2026</span><span class="marquee__star">✳</span>
+          <span>MAKE IT WORK</span><span class="marquee__star">✳</span>
+          <span>SHIP SOMETHING REAL</span><span class="marquee__star">✳</span>
+        </span>
+      </div>
+    </div>
+
+    <!-- ================= STATS BAR ================= -->
+    <section class="stats" aria-label="Event quick facts">
+      <div class="container">
+        <div class="stats__grid">
+          <div class="stat">
+            <span class="stat__label">Physical build</span>
+            <span class="stat__value">24–25 Oct</span>
+          </div>
+          <div class="stat">
+            <span class="stat__label">Venue</span>
+            <!-- TODO: your venue -->
+            <span class="stat__value">Your Venue</span>
+          </div>
+          <div class="stat">
+            <span class="stat__label">Entry</span>
+            <span class="stat__value">Free</span>
+          </div>
+          <div class="stat">
+            <span class="stat__label">Participation</span>
+            <span class="stat__value">Solo or 2–4</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= BIG STATEMENT ================= -->
+    <section class="statement">
+      <div class="container">
+        <p class="statement__line">One idea.</p>
+        <p class="statement__line">A few people.</p>
+        <p class="statement__line">A clock that won't wait.</p>
+        <h2 class="display statement__display">Make something <span class="outline">real.</span></h2>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section" id="about">
+      <div class="container">
+        <header class="split">
+          <div>
+            <p class="kicker">About YourHack</p><!-- TODO: org name -->
+            <h2 class="display">About.</h2>
+          </div>
+          <div class="split__aside">
+            <p class="lead">You can build alone anywhere. Finding the right people is the hard part. One of you has the idea. Someone else knows how to make it. Someone else understands the problem.</p>
+            <p class="lead">Most of the time, those people never meet. We put them in the same room and give them a deadline.</p>
+            <p class="lead">BUILD 2026 brings ambitious builders together to turn ideas, skills and problems into working things. Less pitching. More making.</p>
+            <a class="btn btn--outline" href="#top">Meet YourHack →</a><!-- TODO: link to your main site -->
+          </div>
+        </header>
+      </div>
+    </section>
+
+    <!-- ================= FEATURED SPEAKER ================= -->
+    <section class="section section--tint" id="speaker">
+      <div class="container">
+        <header class="split">
+          <div>
+            <p class="kicker">Founder session · Featured guest</p>
+            <!-- TODO: your speaker's actual headline -->
+            <h2 class="display">From side project to real platform.</h2>
+          </div>
+          <div class="split__aside">
+            <!-- TODO: your speaker's actual story summary -->
+            <p class="lead">How our featured founder turned building with friends into a product people use every day — and what it took to get there.</p>
+            <a class="btn btn--outline" href="#top">Explore the session →</a><!-- TODO -->
+          </div>
+        </header>
+
+        <!-- TODO: replace placeholder speaker details -->
+        <article class="speaker-card reveal">
+          <div class="speaker-card__media" aria-hidden="true">SN</div>
+          <div class="speaker-card__body">
+            <span class="tag">Speaker</span>
+            <h3 class="speaker-card__name">Speaker Name</h3>
+            <p class="speaker-card__role">Cofounder &amp; CEO, Company · Batch 'XX</p>
+            <p class="speaker-card__bio">A short intro to your speaker and why their story matters to builders.</p>
+            <div class="speaker-points">
+              <div><strong>Story</strong><span>What building with a hacker community taught them</span></div>
+              <div><strong>Product</strong><span>What they're building now, and why it matters</span></div>
+              <div><strong>Lesson</strong><span>The one thing they'd tell a first-time builder</span></div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= APPLY + THE BUILD ================= -->
+    <section class="section" id="apply">
+      <div class="container">
+        <header class="split">
+          <div>
+            <p class="kicker">Build 2026 · From idea to build</p>
+            <h2 class="display">Applications are open.</h2>
+          </div>
+          <div class="split__aside">
+            <p class="lead">Two phases. Apply online first, then build in person. Free to enter, open to everyone.</p>
+          </div>
+        </header>
+
+        <div class="duo">
+          <!-- APPLY PANEL -->
+          <article class="panel reveal">
+            <span class="tag">Apply</span>
+            <!-- TODO: your dates -->
+            <p class="panel__dates">14 Sep – 10 Oct 2026</p>
+            <p class="panel__sub">Online. Free. Open to everyone.</p>
+            <ul>
+              <li>Bring an idea, a problem or a skill — nothing finished required.</li>
+              <li>Come solo or with a team. Every kind of builder is welcome.</li>
+            </ul>
+            <p class="panel__note">Developers, designers, founders, researchers, students and operators are all welcome. Already have a prototype? Add a public link in the optional work-link field. No demo or pitch deck needed.</p>
+            <a class="btn btn--solid" href="#top">Submit your idea →</a><!-- TODO: application form link -->
+          </article>
+
+          <!-- BUILD PANEL -->
+          <article class="panel reveal" id="build">
+            <span class="tag">Physical build</span>
+            <p class="panel__dates">24–25 Oct 2026</p>
+            <!-- TODO: your venue -->
+            <p class="panel__sub">In person at Your Venue. Free entry.</p>
+            <ul>
+              <li>A focused 24-hour hackathon to turn your idea into something real.</li>
+              <li>Build solo, or with a team of 2–4 (four is the max).</li>
+            </ul>
+            <p class="panel__note">The physical build is for selected builders. Build space and internet are provided. Food and accommodation are available at a small participant fee, shared before you travel.</p>
+
+            <div class="facts" aria-label="Coming to the build">
+              <div class="fact"><span class="fact__label">Event entry</span><span class="fact__value">Free</span></div>
+              <div class="fact"><span class="fact__label">Food</span><span class="fact__value">Small fee</span></div>
+              <div class="fact"><span class="fact__label">Accommodation</span><span class="fact__value">Small fee</span></div>
+              <div class="fact"><span class="fact__label">Travel</span><span class="fact__value">Not covered</span></div>
+            </div>
+
+            <p class="panel__note">Travel to and from the venue isn't covered. Exact fees and arrival details go to selected builders before attendance confirmation.</p>
+            <a class="btn btn--outline" href="#top">Read the guide →</a><!-- TODO -->
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= WHAT WILL YOU BUILD ================= -->
+    <section class="section section--tint" id="themes">
+      <div class="container">
+        <header class="split">
+          <div>
+            <p class="kicker">Starting points, not limits</p>
+            <h2 class="display">What will you build?</h2>
+          </div>
+          <div class="split__aside">
+            <p class="lead">Your idea, your build. Start a company, fix something you've lived through, build an AI agent, make a useful tool — or try something strange.</p>
+          </div>
+        </header>
+
+        <div class="themes">
+          <article class="theme reveal">
+            <h3>Push AI further</h3>
+            <p>Build something where AI acts, reasons, creates or runs things on its own.</p>
+            <a href="#apply">Start here →</a>
+          </article>
+          <article class="theme reveal">
+            <h3>Rework how we work</h3>
+            <p>Change how people create, learn, collaborate or get things done.</p>
+            <a href="#apply">Start here →</a>
+          </article>
+          <article class="theme reveal">
+            <h3>Fix a real problem</h3>
+            <p>Start from something you've actually seen, felt or lived through.</p>
+            <a href="#apply">Start here →</a>
+          </article>
+          <article class="theme reveal">
+            <h3>Whatever you want</h3>
+            <p>No theme. No assigned brief. Build the thing that should exist.</p>
+            <a href="#apply">Start here →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROCESS: IDEA → BUILD → TEST → SHOW ================= -->
+    <section class="section" id="process">
+      <div class="container">
+        <header class="split">
+          <div>
+            <p class="kicker">The builder loop</p>
+            <h2 class="display">Less talking. More making.</h2>
+          </div>
+          <div class="split__aside">
+            <p class="lead">Build the smallest version that works. Test it. Then show it.</p>
+            <a class="btn btn--outline" href="#top">Read the builder guide →</a><!-- TODO -->
+          </div>
+        </header>
+
+        <p class="process__words" aria-hidden="true">
+          <span>IDEA</span> <span>BUILD</span> <span>TEST</span> <span>SHOW</span>
+        </p>
+
+        <div class="steps">
+          <article class="step-card reveal">
+            <span class="step-card__num">1</span>
+            <h3>Idea</h3>
+            <p>Start with something worth making — an idea, a problem, a question. You don't need the whole answer yet.</p>
+          </article>
+          <article class="step-card reveal">
+            <span class="step-card__num">2</span>
+            <h3>Build</h3>
+            <p>Make the smallest version that actually works. Don't spend the weekend on slides.</p>
+          </article>
+          <article class="step-card reveal">
+            <span class="step-card__num">3</span>
+            <h3>Test</h3>
+            <p>Use it. Break it. Improve it. Find what doesn't work and fix what matters.</p>
+          </article>
+          <article class="step-card reveal">
+            <span class="step-card__num">4</span>
+            <h3>Show</h3>
+            <p>Don't tell us what it could do. Show us what it does.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= $100 CREDITS ================= -->
+    <section class="credits" id="credits">
+      <div class="container">
+        <p class="kicker">For every selected project</p>
+        <p class="credits__amount">$100 <span>LLM credits.</span></p>
+        <p class="credits__tag">Every selected project gets $100 in LLM credits. Experiment. Prototype. Ship.</p>
+        <p class="credits__note">LLM credits are separate from additional rewards offered by Build 2026 partners. Redemption details are shared with selected builders.</p>
+      </div>
+    </section>
+
+    <!-- ================= PARTNER REWARDS ================= -->
+    <section class="section" id="partners">
+      <div class="container">
+        <header class="split">
+          <div>
+            <p class="kicker">Additional partner rewards</p>
+            <h2 class="display">Build with real tools.</h2>
+          </div>
+          <div class="split__aside">
+            <p class="lead">Beyond LLM credits, participants and top projects can unlock tools and infrastructure from Build 2026 partners.</p>
+          </div>
+        </header>
+
+        <!-- TODO: replace all six placeholder cards with your real partners -->
+        <div class="rewards">
+          <article class="reward reveal">
+            <span class="tag">Cloud</span>
+            <h3>Partner One</h3>
+            <p>$50 credits for eligible attendees · track prizes up to $200 per member.</p>
+          </article>
+          <article class="reward reveal">
+            <span class="tag">AI audio</span>
+            <h3>Partner Two</h3>
+            <p>One month of the Creator plan for participants · Pro and Scale for winners.</p>
+          </article>
+          <article class="reward reveal">
+            <span class="tag">Startup network</span>
+            <h3>Partner Three</h3>
+            <p>$30,000 total pool · $100 each for the top 300 projects.</p>
+          </article>
+          <article class="reward reveal">
+            <span class="tag">Domains</span>
+            <h3>Partner Four</h3>
+            <p>A one-year domain for the top 50 projects.</p>
+          </article>
+          <article class="reward reveal">
+            <span class="tag">Agent infra</span>
+            <h3>Partner Five</h3>
+            <p>One free month of the starter plan · for 100 projects.</p>
+          </article>
+          <article class="reward reveal">
+            <span class="tag">App builder</span>
+            <h3>Partner Six</h3>
+            <p>30-day trial for interested projects · a one-year plan for the top 2.</p>
+          </article>
+        </div>
+        <p class="rewards-note">Confirmed partner benefits · last updated September 2026.</p>
+      </div>
+    </section>
+
+    <!-- ================= MARQUEE STACK ================= -->
+    <div class="marquee-stack" aria-hidden="true">
+      <div class="marquee">
+        <div class="marquee__track">
+          <span class="marquee__group"><span>BUILD 2026</span><span class="marquee__star">✳</span><span>MAKE IT WORK</span><span class="marquee__star">✳</span><span>SHIP SOMETHING REAL</span><span class="marquee__star">✳</span></span>
+          <span class="marquee__group"><span>BUILD 2026</span><span class="marquee__star">✳</span><span>MAKE IT WORK</span><span class="marquee__star">✳</span><span>SHIP SOMETHING REAL</span><span class="marquee__star">✳</span></span>
+        </div>
+      </div>
+      <div class="marquee marquee--accent marquee--rev">
+        <div class="marquee__track">
+          <span class="marquee__group"><span>HELLO, BUILDERS</span><span class="marquee__star">✳</span><span>IDEA TO DEMO</span><span class="marquee__star">✳</span><span>24 HOURS</span><span class="marquee__star">✳</span></span>
+          <span class="marquee__group"><span>HELLO, BUILDERS</span><span class="marquee__star">✳</span><span>IDEA TO DEMO</span><span class="marquee__star">✳</span><span>24 HOURS</span><span class="marquee__star">✳</span></span>
+        </div>
+      </div>
+      <div class="marquee">
+        <div class="marquee__track">
+          <span class="marquee__group"><span>LESS PITCHING</span><span class="marquee__star">✳</span><span>MORE MAKING</span><span class="marquee__star">✳</span><span>SEE YOU THERE</span><span class="marquee__star">✳</span></span>
+          <span class="marquee__group"><span>LESS PITCHING</span><span class="marquee__star">✳</span><span>MORE MAKING</span><span class="marquee__star">✳</span><span>SEE YOU THERE</span><span class="marquee__star">✳</span></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= PRIZES ================= -->
+    <section class="section" id="prizes">
+      <div class="container">
+        <header class="split">
+          <div>
+            <p class="kicker">Prizes, recognition &amp; opportunities</p>
+            <h2 class="display">Get your build seen.</h2>
+          </div>
+          <div class="split__aside">
+            <p class="lead">Three ways to get noticed at the finish line.</p>
+          </div>
+        </header>
+
+        <div class="prizes">
+          <article class="prize reveal">
+            <span class="prize__label">01 · Overall</span>
+            <h3>Best build</h3>
+            <p>The strongest end-to-end build of the event.</p>
+          </article>
+          <article class="prize reveal">
+            <span class="prize__label">02 · Thoughtful</span>
+            <h3>Best use of AI</h3>
+            <p>AI used with intent — not just for the label.</p>
+          </article>
+          <article class="prize reveal">
+            <span class="prize__label">03 · Unexpected</span>
+            <h3>The wildcard</h3>
+            <p>The build nobody saw coming — and can't forget.</p>
+          </article>
+        </div>
+        <p class="prizes-note">Cash prize amounts will be published once final confirmation lands.</p><!-- TODO -->
+      </div>
+    </section>
+
+    <!-- ================= ROUTE / TIMELINE ================= -->
+    <section class="section section--tint" id="route">
+      <div class="container">
+        <header class="split">
+          <div>
+            <p class="kicker">How it works</p>
+            <h2 class="display">The path to the build.</h2>
+          </div>
+          <div class="split__aside">
+            <p class="lead">Apply. Get picked. Team up. Build. Keep building.</p>
+          </div>
+        </header>
+
+        <ol class="route">
+          <li class="step reveal">
+            <span class="step__num" aria-hidden="true">01</span>
+            <div class="step__body">
+              <span class="step__when">14 September → 10 October</span>
+              <h3 class="step__title">Apply</h3>
+              <p>Bring an idea, a problem or a skill. Nothing finished required.</p>
+            </div>
+          </li>
+          <li class="step reveal">
+            <span class="step__num" aria-hidden="true">02</span>
+            <div class="step__body">
+              <span class="step__when">After applications close</span>
+              <h3 class="step__title">Get selected</h3>
+              <p>Our program team reviews every application and emails selected builders with attendance-confirmation details.</p>
+            </div>
+          </li>
+          <li class="step reveal">
+            <span class="step__num" aria-hidden="true">03</span>
+            <div class="step__body">
+              <span class="step__when">Before the build</span>
+              <h3 class="step__title">Team up</h3>
+              <p>Find your people. Form a team. Prepare your build.</p>
+            </div>
+          </li>
+          <li class="step reveal">
+            <span class="step__num" aria-hidden="true">04</span>
+            <div class="step__body">
+              <span class="step__when">24–25 October 2026</span>
+              <h3 class="step__title">The build</h3>
+              <p>In person at Your Venue. Build. Ship. Show.</p><!-- TODO: venue -->
+            </div>
+          </li>
+          <li class="step reveal">
+            <span class="step__num" aria-hidden="true">05</span>
+            <div class="step__body">
+              <span class="step__when">After the event</span>
+              <h3 class="step__title">Keep building</h3>
+              <p>Get seen. Get opportunities. Don't stop.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================= JUDGING ================= -->
+    <section class="section" id="judging">
+      <div class="container">
+        <header class="split">
+          <div>
+            <p class="kicker">How projects are assessed</p>
+            <h2 class="display">Every build gets a fair look.</h2>
+          </div>
+          <div class="split__aside">
+            <p class="lead">Build 40% · Problem 20% · Ingenuity 20% · Potential 20%.</p>
+          </div>
+        </header>
+
+        <div class="judging">
+          <div class="bars">
+            <div class="bar reveal" style="--w: 40%">
+              <div class="bar__head"><span>Build</span><span>40%</span></div>
+              <div class="bar__track"><div class="bar__fill"></div></div>
+              <p class="bar__desc">How much did you actually make, and does the core of it work?</p>
+            </div>
+            <div class="bar reveal" style="--w: 20%">
+              <div class="bar__head"><span>Problem</span><span>20%</span></div>
+              <div class="bar__track"><div class="bar__fill"></div></div>
+              <p class="bar__desc">Does it solve something real or meaningful?</p>
+            </div>
+            <div class="bar reveal" style="--w: 20%">
+              <div class="bar__head"><span>Ingenuity</span><span>20%</span></div>
+              <div class="bar__track"><div class="bar__fill"></div></div>
+              <p class="bar__desc">Is anything about the approach clever, original or thoughtful?</p>
+            </div>
+            <div class="bar reveal" style="--w: 20%">
+              <div class="bar__head"><span>Potential</span><span>20%</span></div>
+              <div class="bar__track"><div class="bar__fill"></div></div>
+              <p class="bar__desc">Is there a reason to keep building it after the event?</p>
+            </div>
+          </div>
+
+          <aside class="judging__aside">
+            <div class="judge-card reveal">
+              <h3>Come prepared.</h3>
+              <p>Bring a laptop and your curiosity. An idea is optional. Come ready to experiment, collaborate, fail, rebuild and ship.</p>
+              <a class="judge-card__link" href="#top">Open the guide →</a><!-- TODO -->
+            </div>
+            <p class="judge-quote reveal">We judge the build, not the pitch.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SELECTED BUILDER BENEFITS ================= -->
+    <section class="benefits" id="benefits">
+      <div class="container">
+        <p class="kicker">Selected builder program</p>
+        <h2 class="display">More than a hackathon.</h2>
+
+        <div class="benefits__grid">
+          <div class="reveal">
+            <p class="lead">Get selected and become a <strong>YourHack Selected Builder</strong>. Get recognized, build a public profile, find people to build with, and stay connected to the network long after the event. Top projects and standout builders may be referred to relevant investors in our network.</p>
+            <a class="btn btn--accent" href="#prizes">See prizes &amp; opportunities →</a>
+          </div>
+          <ul class="reveal">
+            <li>A Selected Builder badge</li>
+            <li>A featured public profile</li>
+            <li>A shareable Build 2026 credential</li>
+            <li>$100 in LLM credits per selected project</li>
+            <li>Project showcases and future event access</li>
+            <li>Investor referrals for standout builds</li>
+          </ul>
+        </div>
+
+        <p class="benefits__close">The event ends. The network stays.</p>
+      </div>
+    </section>
+
+    <!-- ================= FOR COMPANIES ================= -->
+    <section class="section" id="companies">
+      <div class="container">
+        <header class="split">
+          <div>
+            <p class="kicker">For companies</p>
+            <h2 class="display">Give builders something real.</h2>
+          </div>
+          <div class="split__aside">
+            <p class="lead">Bring useful technology, a real challenge, expertise or an opportunity — and put it directly in builders' hands. No generic sponsorship packages.</p>
+            <a class="btn btn--solid" href="mailto:hello@yourhack.org">Explore partnerships →</a><!-- TODO -->
+          </div>
+        </header>
+      </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section class="section section--tint" id="faq">
+      <div class="container">
+        <header class="split">
+          <div>
+            <p class="kicker">Answers</p>
+            <h2 class="display">Questions?</h2>
+          </div>
+          <div class="split__aside">
+            <p class="lead">Still stuck? Ask the team — <a href="mailto:hello@yourhack.org">hello@yourhack.org</a></p><!-- TODO -->
+          </div>
+        </header>
+
+        <div class="faq">
+          <nav class="faq__nav" aria-label="FAQ topics">
+            <a href="#faq-participation">Participation</a>
+            <a href="#faq-building">Building</a>
+            <a href="#faq-physical">The physical build</a>
+          </nav>
+
+          <div class="faq__groups">
+            <section class="faq-group" id="faq-participation">
+              <h3>Participation</h3>
+
+              <div class="faq-item">
+                <h4 class="faq-q"><button class="faq-btn" aria-expanded="false"><span>What is Build 2026?</span><span class="faq-icon" aria-hidden="true">+</span></button></h4>
+                <div class="faq-a"><div class="faq-a__inner"><p>A builder-first experience where ideas, problems, skills and ambitious people come together to make something real — online applications first, then a 24-hour in-person build.</p></div></div>
+              </div>
+
+              <div class="faq-item">
+                <h4 class="faq-q"><button class="faq-btn" aria-expanded="false"><span>Are applications free?</span><span class="faq-icon" aria-hidden="true">+</span></button></h4>
+                <div class="faq-a"><div class="faq-a__inner"><p>Yes. Applications are free, open to everyone, and run online from 14 September to 10 October 2026.</p></div></div>
+              </div>
+
+              <div class="faq-item">
+                <h4 class="faq-q"><button class="faq-btn" aria-expanded="false"><span>Do I need a finished product?</span><span class="faq-icon" aria-hidden="true">+</span></button></h4>
+                <div class="faq-a"><div class="faq-a__inner"><p>No. Submit an idea, a problem, or the skill you'd bring. If you already have a prototype, add a public link in the optional work-link field. No demo or pitch deck required.</p></div></div>
+              </div>
+
+              <div class="faq-item">
+                <h4 class="faq-q"><button class="faq-btn" aria-expanded="false"><span>What happens after I apply?</span><span class="faq-icon" aria-hidden="true">+</span></button></h4>
+                <div class="faq-a"><div class="faq-a__inner"><p>Applications close on 10 October. After review, selected builders receive selection and attendance-confirmation details directly from our team. If you applied with a team, connect everyone with a private team code after submitting. The physical build is on 24–25 October 2026.</p></div></div>
+              </div>
+
+              <div class="faq-item">
+                <h4 class="faq-q"><button class="faq-btn" aria-expanded="false"><span>Can I participate alone?</span><span class="faq-icon" aria-hidden="true">+</span></button></h4>
+                <div class="faq-a"><div class="faq-a__inner"><p>Yes. Apply solo, apply with a team, or apply while looking for teammates. Every person submits their own application.</p></div></div>
+              </div>
+
+              <div class="faq-item">
+                <h4 class="faq-q"><button class="faq-btn" aria-expanded="false"><span>How do team codes work?</span><span class="faq-icon" aria-hidden="true">+</span></button></h4>
+                <div class="faq-a"><div class="faq-a__inner"><p>Teams are 2–4 people, with four as the maximum. Submit your own application first, then create a team to get a private code (like ABC-1X2Y3) or join an existing team with a teammate's code. Everyone on the team applies individually.</p></div></div>
+              </div>
+
+              <div class="faq-item">
+                <h4 class="faq-q"><button class="faq-btn" aria-expanded="false"><span>Can I connect my team later?</span><span class="faq-icon" aria-hidden="true">+</span></button></h4>
+                <div class="faq-a"><div class="faq-a__inner"><p>Yes. Submit your application now and connect the team from your application status page whenever you're ready. Your application stays valid without a connected team.</p></div></div>
+              </div>
+
+              <div class="faq-item">
+                <h4 class="faq-q"><button class="faq-btn" aria-expanded="false"><span>Do I need to be a developer?</span><span class="faq-icon" aria-hidden="true">+</span></button></h4>
+                <div class="faq-a"><div class="faq-a__inner"><p>No. Building isn't limited to code — designers, researchers, operators, founders and strong problem-solvers are all welcome. Still unsure? Email hello@yourhack.org.</p></div></div>
+              </div>
+            </section>
+
+            <section class="faq-group" id="faq-building">
+              <h3>Building</h3>
+
+              <div class="faq-item">
+                <h4 class="faq-q"><button class="faq-btn" aria-expanded="false"><span>Who gets the $100 LLM credits?</span><span class="faq-icon" aria-hidden="true">+</span></button></h4>
+                <div class="faq-a"><div class="faq-a__inner"><p>Every selected project gets one $100 allocation. A solo builder receives it directly; a team of 2–4 shares one allocation for its project.</p></div></div>
+              </div>
+
+              <div class="faq-item">
+                <h4 class="faq-q"><button class="faq-btn" aria-expanded="false"><span>What counts as a "project"?</span><span class="faq-icon" aria-hidden="true">+</span></button></h4>
+                <div class="faq-a"><div class="faq-a__inner"><p>One competing build. A solo participant's build is one project, and a registered team of 2–4 shares one project. Project rewards are issued once per project, not once per person.</p></div></div>
+              </div>
+
+              <div class="faq-item">
+                <h4 class="faq-q"><button class="faq-btn" aria-expanded="false"><span>What can I build?</span><span class="faq-icon" aria-hidden="true">+</span></button></h4>
+                <div class="faq-a"><div class="faq-a__inner"><p>Anything worth building. Follow one of our suggested directions or go completely your own way. AI is a powerful building layer, not a requirement.</p></div></div>
+              </div>
+            </section>
+
+            <section class="faq-group" id="faq-physical">
+              <h3>The physical build</h3>
+
+              <div class="faq-item">
+                <h4 class="faq-q"><button class="faq-btn" aria-expanded="false"><span>Where and when is the physical build?</span><span class="faq-icon" aria-hidden="true">+</span></button></h4>
+                <div class="faq-a"><div class="faq-a__inner"><p>A 24-hour hackathon at Your Venue on 24–25 October 2026. Entry is free. Travel isn't covered. Food and accommodation are available at a small participant fee, with final fees, check-in and local-transport details shared with selected builders before confirmation.</p></div></div>
+              </div>
+
+              <div class="faq-item">
+                <h4 class="faq-q"><button class="faq-btn" aria-expanded="false"><span>When will prizes be announced?</span><span class="faq-icon" aria-hidden="true">+</span></button></h4>
+                <div class="faq-a"><div class="faq-a__inner"><p>Confirmed partner rewards are listed in the prizes section. Cash-prize, tie-break and judging-panel details will be added after final confirmation.</p></div></div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER MARQUEE ================= -->
+  <div class="marquee marquee--accent" aria-hidden="true">
+    <div class="marquee__track">
+      <span class="marquee__group"><span>SEE YOU AT THE BUILD</span><span class="marquee__star">✳</span><span>24–25 OCTOBER</span><span class="marquee__star">✳</span><span>YOURHACK</span><span class="marquee__star">✳</span></span>
+      <span class="marquee__group"><span>SEE YOU AT THE BUILD</span><span class="marquee__star">✳</span><span>24–25 OCTOBER</span><span class="marquee__star">✳</span><span>YOURHACK</span><span class="marquee__star">✳</span></span>
+    </div>
+  </div>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a class="nav__logo nav__logo--footer" href="#top">
+            <span class="nav__logo-mark" aria-hidden="true">✳</span>
+            <span class="nav__logo-text">YOURHACK <em>BUILD&nbsp;2026</em></span>
+          </a>
+          <p>The network for builders. Ideas find people here.</p><!-- TODO: your tagline -->
+        </div>
+        <nav aria-label="Footer event links">
+          <h4>Event</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#speaker">Speaker</a></li>
+            <li><a href="#apply">Apply</a></li>
+            <li><a href="#build">The build</a></li>
+            <li><a href="#prizes">Prizes</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Footer contact links">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:hello@yourhack.org">hello@yourhack.org</a></li><!-- TODO -->
+            <li><a href="#companies">Partnerships</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span id="year">2026</span> YourHack. All rights reserved.</span>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
